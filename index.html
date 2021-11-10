@@ -4,11 +4,12 @@
     <meta charset="utf-8">
     <title>Khemych CV</title>
       <link rel="stylesheet" href="css/style.css">
+      <link id="colorMod" rel="stylesheet" href="css/lightMod.css">
       <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
   </head>
   <body>
   <div class="mainContainer">
-    <div class="leftContainer">
+    <div class="leftContainer whiteMod">
       <div class="headerLogotypeContainer">
         <h1 class="logotypeName">
           Roman <span class="purple"> Khemych </span>
@@ -28,70 +29,76 @@
           <a class="navBar" href="#contact">Contact details</a>
         </nav>
       </div>
+      <div class="contactSection">
+        <button id="nightModButton">Night Mod</button>
+      </div>
     </div>
-      <main class="contentColumn">
-        <div id="skills" class="infoBlock">
-          <h2>Skills</h2>
-          <ul>
-            <li>JavaScript</li>
-            <li>TypeScript</li>
-            <li>HTML5</li>
-            <li>CSS3</li>
-            <li>Npm</li>
-            <li>Git</li>
-          </ul>
-        </div>
-        <div id="languages" class="infoBlock">
-          <h2>Languages</h2>
-          <div class="language">
-            <div>
-              <label for="file">English</label>
-              <progress id="file" value="60" max="100"> 50% </progress>
-            </div>
-            <div>
-              <label for="file">Ukrainian</label>
-              <progress id="file" value="100" max="100"> 100% </progress>
-            </div>
-            <div>
-              <label for="file">Russian</label>
-              <progress id="file" value="100" max="100"> 100% </progress>
-            </div>
+
+    <main class="contentColumn">
+      <div id="skills" class="infoBlock">
+        <h2>Skills</h2>
+        <ul>
+          <li>JavaScript</li>
+          <li>TypeScript</li>
+          <li>HTML5</li>
+          <li>CSS3</li>
+          <li>Npm</li>
+          <li>Git</li>
+        </ul>
+      </div>
+      <div id="languages" class="infoBlock">
+        <h2>Languages</h2>
+        <div class="language">
+          <div>
+            <label for="file">English</label>
+            <progress id="file" value="60" max="100"> 50% </progress>
+          </div>
+          <div>
+            <label for="file">Ukrainian</label>
+            <progress id="file" value="100" max="100"> 100% </progress>
+          </div>
+          <div>
+            <label for="file">Russian</label>
+            <progress id="file" value="100" max="100"> 100% </progress>
           </div>
         </div>
-        <div id="education" class="infoBlock">
-          <h2>Education</h2>
-          <div class="educationContent">
-            <h3>Lviv Cooperative College of Economics and Law</h3>
-            <h4 class="university">Junior Specialist <span class="purple">September 2010 - March 2014</span></h4>
-            <h3>Lviv Institute of Economics and Tourism</h3>
-            <h4 class="university">Bachelor Degree <span class="purple">September 2014 - June 2016</span></h4>
-            <h3>Lviv Institute of Economics and Tourism</h3>
-            <h4 class="university">Master's degree <span class="purple">September 2016 - June 2017</span></h4>
-          </div>
+      </div>
+      <div id="education" class="infoBlock">
+        <h2>Education</h2>
+        <div class="educationContent">
+          <h3>Lviv Cooperative College of Economics and Law</h3>
+          <h4 class="university">Junior Specialist <span class="purple">September 2010 - March 2014</span></h4>
+          <h3>Lviv Institute of Economics and Tourism</h3>
+          <h4 class="university">Bachelor Degree <span class="purple">September 2014 - June 2016</span></h4>
+          <h3>Lviv Institute of Economics and Tourism</h3>
+          <h4 class="university">Master's degree <span class="purple">September 2016 - June 2017</span></h4>
         </div>
-        <div id="expirience" class="infoBlock">
-          <h2>Work Experience</h2>
-          <h3>Sales Manager</h3>
-          <h4 class="work">Mobaks <span class="purple">October 2017 - April 2021</span></h4>
-          <h3>Barista</h3>
-          <h4 class="work">Fika <span class="purple">July 2016 - September 2017</span></h4>
-        </div>
-        <div id="contact" class="infoBlock">
-          <h2>Contact details</h2>
-          <h3 class="purple">Phone:</h3>
-          <h4>+30982517181</h4>
-          <h3 class="purple">Email:</h3>
-          <h4>roman1990912@gmail.com</h4>
-          <h3 class="purple">Adress:</h3>
-          <h4>Tworcha, 64</h4>
-          <h4>Lviv, Ukrain</h4>
-        </div>
-        <div class="getSocialContent">
-          <h2> Get social </h2>
-          <a target="_blank" href="https://www.facebook.com/G0dfree" class="fa fa-facebook"></a>
-          <a target="_blank" href="https://www.instagram.com/g0d_free/" class="fa fa-instagram"></a>
-        </div>
-      </main>
+      </div>
+      <div id="expirience" class="infoBlock">
+        <h2>Work Experience</h2>
+        <h3>Sales Manager</h3>
+        <h4 class="work">Mobaks <span class="purple">October 2017 - April 2021</span></h4>
+        <h3>Barista</h3>
+        <h4 class="work">Fika <span class="purple">July 2016 - September 2017</span></h4>
+      </div>
+      <div id="contact" class="infoBlock">
+        <h2>Contact details</h2>
+        <h3 class="purple">Phone:</h3>
+        <h4>+30982517181</h4>
+        <h3 class="purple">Email:</h3>
+        <h4>roman1990912@gmail.com</h4>
+        <h3 class="purple">Adress:</h3>
+        <h4>Tworcha, 64</h4>
+        <h4>Lviv, Ukrain</h4>
+      </div>
+      <div class="getSocialContent">
+        <h2> Get social </h2>
+        <a target="_blank" href="https://www.facebook.com/G0dfree" class="fa fa-facebook"></a>
+        <a target="_blank" href="https://www.instagram.com/g0d_free/" class="fa fa-instagram"></a>
+      </div>
+    </main>
   </div>
+  <script type="text/javascript" src="js/script.js">
+  </script>
   </body>
 </html>

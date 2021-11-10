@@ -1,0 +1,49 @@
+.mainContainer {
+  background: #b0b0b0;
+}
+
+.leftContainer{
+  background-color: #7e7e7e
+}
+
+.purple {
+  color: #7b98f4;
+}
+
+.logotypeName{
+	color: #48DA9B;
+}
+
+.LogotypeOccupation{
+	color: #48DA9B;
+}
+
+#nightModButton{
+  background-color: white;
+  color: #7b98f4;
+}
+
+.navBar{
+  color: #7b98f4;
+}
+
+.infoBlock {
+  background: #747272;
+}
+
+.university {
+  color: #48DA9B;
+}
+
+.work {
+  color: #48DA9B;
+}
+
+li {
+  color: #7b98f4;
+}
+
+
+.fa {
+  color: white;
+}
