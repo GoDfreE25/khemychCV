@@ -1,0 +1,151 @@
+.mainContainer {
+  display: flex;
+  flex-direction: row;
+}
+
+.leftContainer{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 25vw;
+  height: 100%;
+  text-align: center;
+	border-right: 1px solid #403F44;
+  background-color: #CEE7E9
+}
+
+.headerLogotypeContainer{
+  margin: auto;
+  text-align: center;
+}
+
+.purple {
+  color: purple;
+}
+
+.logotypeName{
+  font-family: 'Lato', Helvetica, sans-serif;
+	color: #48DA9B;
+  font-size: 30px;
+  font-weight: 300;
+  margin: 10px 0;
+}
+
+.LogotypeOccupation{
+  font-family: 'Lato', Helvetica, sans-serif;
+	font-weight: 100;
+	color: #48DA9B;
+  font-size: 20px;
+  margin: 32px 0 24px;
+  margin-top: 0px;
+}
+
+.headerMenu {
+  display: flex;
+  flex-direction: column;
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-weight: 300;
+	font-size: 18px;
+  margin: auto;
+}
+
+.navBar{
+  position: relative;
+  margin: 20px auto;
+  text-decoration: none;
+  color: purple;
+}
+
+body{
+  margin: 0px;
+}
+
+.contactSection {
+  margin: 20px auto;
+}
+
+.profilePicture {
+  width: 200px;
+  height: 200px;
+  border-radius: 20px;
+  object-fit: cover;
+}
+
+
+
+.contentColumn {
+  display: flex;
+flex-direction: column;
+  width: 75vw;
+  font-family: 'Lato', Helvetica, sans-serif;
+  font-weight: 300;
+	font-size: 18px;
+  margin-left: 25vw;
+}
+
+.infoBlock {
+  padding: 10px 20px;
+  margin: 20px 5vw;
+  border-radius: 10px;
+  background: #F7F7F7;
+}
+
+.infoBlock h2 {
+  text-align: center;
+}
+
+.university {
+  font-weight: 300;
+  color: #48DA9B;
+}
+
+.work {
+  font-weight: 300;
+  color: #48DA9B;
+}
+h3, h4 {
+  margin: 10px 0;
+	font-size: 18px;
+  padding: 0 25px;
+}
+
+li {
+  font-weight: 300;
+  color: purple;
+}
+
+.language {
+  width: 100%;
+  height: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 10px 25px;
+}
+
+label {
+    padding-right: 10px;
+    font-size: 1rem;
+}
+
+.footer {
+  display: flex;
+  justify-content: center;
+}
+
+.getSocialContent {
+  margin: 10px 0;
+  text-align: center;
+}
+
+.fa {
+  width: 25px;
+  height: 20px;
+  padding: 10px;
+  font-size: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+  color: black;
+  border-radius: 50%;
+}
